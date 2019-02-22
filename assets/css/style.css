@@ -11,6 +11,7 @@ body {
     padding: 0 20px;
     clear: both;
     background-color: rgb(255, 255, 255);
+    overflow: auto;
 }
 
 #nav-head {
@@ -54,6 +55,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    margin-top: 15px;
     padding-top: 15px;
     padding-bottom: 3px;
     text-align: center;
@@ -81,4 +83,44 @@ footer {
 
 .bio > p {
     padding-top: 20px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    float: left;
+}
+
+.container-newLine {
+    clear: both;
+    position: relative;
+    text-align: center;
+    float: left;
+}
+
+.img-box {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+.label {
+    color: #fff;
+    width: 180px;
+    position: absolute;
+    background-color: #4aaaa5;
+    padding: 10px;
+    bottom: 35px;
+    right: 20px;
+}
+
+#house {
+    position: relative;
+    text-align: center;
+    float: left;
+}
+
+#clear {
+    clear: both;
 }
