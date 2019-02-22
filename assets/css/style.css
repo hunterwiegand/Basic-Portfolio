@@ -1,4 +1,4 @@
-/* Elements used for all files */
+/* Styles used for all files */
 /* Defaults font for all text and sets background image */
 body {
     margin: 0 auto;
@@ -130,4 +130,11 @@ Postion image on left side, inline*/
     padding: 10px;
     bottom: 35px;
     right: 20px;
+}
+/*End of styles for protfolio.html*/
+
+/*Styles for contact.html*/
+/*Expand input elements to fill parent div*/
+.text-elements > input {
+    width: 100%;
 }
