@@ -1,0 +1,84 @@
+body {
+    margin: 0 auto;
+    background-image: url("../images/white-waves.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    /*add background img in images file*/
+}
+
+.main-content {
+    margin: 2% 15%;
+    width: 960px;
+    padding: 0 20px;
+    clear: both;
+    background-color: rgb(255, 255, 255);
+}
+
+#nav-head {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin: 0;
+    width: 100%;
+    background-color: #fff;
+    overflow: auto;
+    border-bottom: 1px solid #ccc;
+}
+#nav-head > nav ul li {
+    display: inline;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: grey;
+}
+
+h1 {
+    margin: 0 15%;
+    padding: 20px;
+    background-color: #4aaaa5;
+    color: #fff;
+    float: left;
+}
+
+nav {
+    position: relative;
+    float: right;
+    margin-right: 19%;
+    margin-bottom: 1%;
+    top: 30px;
+}
+
+hr {
+    margin: 0 auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 3px;
+    text-align: center;
+    font-size: 10px;
+    background-color: #666;
+    color: #ccc;
+    border-top: 5px solid #4aaaa5;
+}
+
+#profile-img {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 20px 20px 20px 0;
+}
+
+.main-content > h2 {
+    color: #4aaaa5;
+    padding-top: 10px;
+}
+
+.bio {
+    padding-bottom: 20px;
+}
+
+.bio > p {
+    padding-top: 20px;
+}
